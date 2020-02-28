@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132E3429530BA1668EBD5FDD /* Pods_dogCEOIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAC20701AA3717E8A0E092 /* Pods_dogCEOIOSTests.framework */; };
+		917CF2B1705505DBDF69E6A1 /* Pods_dogCEOIOS_dogCEOIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE5CBFA30932C66ED8E8DE /* Pods_dogCEOIOS_dogCEOIOSUITests.framework */; };
 		AB2EF82B2407FEEC00166AEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF82A2407FEEC00166AEE /* AppDelegate.swift */; };
 		AB2EF82D2407FEEC00166AEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF82C2407FEEC00166AEE /* ViewController.swift */; };
 		AB2EF8302407FEEC00166AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2EF82E2407FEEC00166AEE /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		AB2EF8352407FF0100166AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2EF8332407FF0100166AEE /* LaunchScreen.storyboard */; };
 		AB2EF8402407FF0100166AEE /* dogCEOIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF83F2407FF0100166AEE /* dogCEOIOSTests.swift */; };
 		AB2EF84B2407FF0100166AEE /* dogCEOIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF84A2407FF0100166AEE /* dogCEOIOSUITests.swift */; };
+		D22403C2483477D1810052EF /* Pods_dogCEOIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0091C640D28C3EF3370E7B /* Pods_dogCEOIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1558090FC7F93A2A84FCF99B /* Pods-dogCEOIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogCEOIOS.debug.xcconfig"; path = "Target Support Files/Pods-dogCEOIOS/Pods-dogCEOIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		25CFE7E7BE0CC9DD9B445BC8 /* Pods-dogCEOIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogCEOIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-dogCEOIOSTests/Pods-dogCEOIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30BAC20701AA3717E8A0E092 /* Pods_dogCEOIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dogCEOIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C4EA5B9A0D3E1D4151D1E5F /* Pods-dogCEOIOS-dogCEOIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogCEOIOS-dogCEOIOSUITests.release.xcconfig"; path = "Target Support Files/Pods-dogCEOIOS-dogCEOIOSUITests/Pods-dogCEOIOS-dogCEOIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8A95CBBF753139A898DAC3FA /* Pods-dogCEOIOS-dogCEOIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogCEOIOS-dogCEOIOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-dogCEOIOS-dogCEOIOSUITests/Pods-dogCEOIOS-dogCEOIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E0091C640D28C3EF3370E7B /* Pods_dogCEOIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dogCEOIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2EF8272407FEEC00166AEE /* dogCEOIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dogCEOIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2EF82A2407FEEC00166AEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB2EF82C2407FEEC00166AEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		AB2EF8462407FF0100166AEE /* dogCEOIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dogCEOIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2EF84A2407FF0100166AEE /* dogCEOIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogCEOIOSUITests.swift; sourceTree = "<group>"; };
 		AB2EF84C2407FF0100166AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE408598CE82D697C535D975 /* Pods-dogCEOIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogCEOIOSTests.release.xcconfig"; path = "Target Support Files/Pods-dogCEOIOSTests/Pods-dogCEOIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		BFBE5CBFA30932C66ED8E8DE /* Pods_dogCEOIOS_dogCEOIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dogCEOIOS_dogCEOIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CACAA87F60F2BDAE5FBAC905 /* Pods-dogCEOIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogCEOIOS.release.xcconfig"; path = "Target Support Files/Pods-dogCEOIOS/Pods-dogCEOIOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D22403C2483477D1810052EF /* Pods_dogCEOIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132E3429530BA1668EBD5FDD /* Pods_dogCEOIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				917CF2B1705505DBDF69E6A1 /* Pods_dogCEOIOS_dogCEOIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DEA3E1A68A45E0F0F9DCB06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E0091C640D28C3EF3370E7B /* Pods_dogCEOIOS.framework */,
+				BFBE5CBFA30932C66ED8E8DE /* Pods_dogCEOIOS_dogCEOIOSUITests.framework */,
+				30BAC20701AA3717E8A0E092 /* Pods_dogCEOIOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A58423A454179C5A4235B7A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1558090FC7F93A2A84FCF99B /* Pods-dogCEOIOS.debug.xcconfig */,
+				CACAA87F60F2BDAE5FBAC905 /* Pods-dogCEOIOS.release.xcconfig */,
+				8A95CBBF753139A898DAC3FA /* Pods-dogCEOIOS-dogCEOIOSUITests.debug.xcconfig */,
+				4C4EA5B9A0D3E1D4151D1E5F /* Pods-dogCEOIOS-dogCEOIOSUITests.release.xcconfig */,
+				25CFE7E7BE0CC9DD9B445BC8 /* Pods-dogCEOIOSTests.debug.xcconfig */,
+				AE408598CE82D697C535D975 /* Pods-dogCEOIOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AB2EF81E2407FEEC00166AEE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +120,8 @@
 				AB2EF83E2407FF0100166AEE /* dogCEOIOSTests */,
 				AB2EF8492407FF0100166AEE /* dogCEOIOSUITests */,
 				AB2EF8282407FEEC00166AEE /* Products */,
+				A58423A454179C5A4235B7A7 /* Pods */,
+				0DEA3E1A68A45E0F0F9DCB06 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +173,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB2EF84F2407FF0100166AEE /* Build configuration list for PBXNativeTarget "dogCEOIOS" */;
 			buildPhases = (
+				89E68501C945F9E93C7CAD7A /* [CP] Check Pods Manifest.lock */,
 				AB2EF8232407FEEC00166AEE /* Sources */,
 				AB2EF8242407FEEC00166AEE /* Frameworks */,
 				AB2EF8252407FEEC00166AEE /* Resources */,
+				D1921B04E7FA85F0EF605E0C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB2EF8522407FF0100166AEE /* Build configuration list for PBXNativeTarget "dogCEOIOSTests" */;
 			buildPhases = (
+				ABCB6A5A862DDD81BD6621A5 /* [CP] Check Pods Manifest.lock */,
 				AB2EF8372407FF0100166AEE /* Sources */,
 				AB2EF8382407FF0100166AEE /* Frameworks */,
 				AB2EF8392407FF0100166AEE /* Resources */,
@@ -167,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB2EF8552407FF0100166AEE /* Build configuration list for PBXNativeTarget "dogCEOIOSUITests" */;
 			buildPhases = (
+				A820B31C7F05CEDADE5EC03B /* [CP] Check Pods Manifest.lock */,
 				AB2EF8422407FF0100166AEE /* Sources */,
 				AB2EF8432407FF0100166AEE /* Frameworks */,
 				AB2EF8442407FF0100166AEE /* Resources */,
+				B2841E3F9ED33DC5BA054CCA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,6 +296,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89E68501C945F9E93C7CAD7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dogCEOIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A820B31C7F05CEDADE5EC03B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dogCEOIOS-dogCEOIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABCB6A5A862DDD81BD6621A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dogCEOIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2841E3F9ED33DC5BA054CCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dogCEOIOS-dogCEOIOSUITests/Pods-dogCEOIOS-dogCEOIOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dogCEOIOS-dogCEOIOSUITests/Pods-dogCEOIOS-dogCEOIOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dogCEOIOS-dogCEOIOSUITests/Pods-dogCEOIOS-dogCEOIOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1921B04E7FA85F0EF605E0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dogCEOIOS/Pods-dogCEOIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dogCEOIOS/Pods-dogCEOIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dogCEOIOS/Pods-dogCEOIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB2EF8232407FEEC00166AEE /* Sources */ = {
@@ -430,6 +579,7 @@
 		};
 		AB2EF8502407FF0100166AEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1558090FC7F93A2A84FCF99B /* Pods-dogCEOIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +597,7 @@
 		};
 		AB2EF8512407FF0100166AEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CACAA87F60F2BDAE5FBAC905 /* Pods-dogCEOIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +615,7 @@
 		};
 		AB2EF8532407FF0100166AEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25CFE7E7BE0CC9DD9B445BC8 /* Pods-dogCEOIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +636,7 @@
 		};
 		AB2EF8542407FF0100166AEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE408598CE82D697C535D975 /* Pods-dogCEOIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +657,7 @@
 		};
 		AB2EF8562407FF0100166AEE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A95CBBF753139A898DAC3FA /* Pods-dogCEOIOS-dogCEOIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +677,7 @@
 		};
 		AB2EF8572407FF0100166AEE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C4EA5B9A0D3E1D4151D1E5F /* Pods-dogCEOIOS-dogCEOIOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
