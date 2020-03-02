@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		AB2EF82B2407FEEC00166AEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF82A2407FEEC00166AEE /* AppDelegate.swift */; };
-		AB2EF82D2407FEEC00166AEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF82C2407FEEC00166AEE /* ViewController.swift */; };
+		AB2EF82D2407FEEC00166AEE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF82C2407FEEC00166AEE /* TableViewController.swift */; };
 		AB2EF8302407FEEC00166AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2EF82E2407FEEC00166AEE /* Main.storyboard */; };
 		AB2EF8322407FF0100166AEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2EF8312407FF0100166AEE /* Assets.xcassets */; };
 		AB2EF8352407FF0100166AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2EF8332407FF0100166AEE /* LaunchScreen.storyboard */; };
 		AB2EF8402407FF0100166AEE /* dogCEOIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF83F2407FF0100166AEE /* dogCEOIOSTests.swift */; };
 		AB2EF84B2407FF0100166AEE /* dogCEOIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF84A2407FF0100166AEE /* dogCEOIOSUITests.swift */; };
+		AB2EF85C240D2B3300166AEE /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF85B240D2B3300166AEE /* Dog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		AB2EF8272407FEEC00166AEE /* dogCEOIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dogCEOIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2EF82A2407FEEC00166AEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB2EF82C2407FEEC00166AEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB2EF82C2407FEEC00166AEE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		AB2EF82F2407FEEC00166AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB2EF8312407FF0100166AEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB2EF8342407FF0100166AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		AB2EF8462407FF0100166AEE /* dogCEOIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dogCEOIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2EF84A2407FF0100166AEE /* dogCEOIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogCEOIOSUITests.swift; sourceTree = "<group>"; };
 		AB2EF84C2407FF0100166AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2EF85B240D2B3300166AEE /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				AB2EF82A2407FEEC00166AEE /* AppDelegate.swift */,
-				AB2EF82C2407FEEC00166AEE /* ViewController.swift */,
+				AB2EF82C2407FEEC00166AEE /* TableViewController.swift */,
+				AB2EF858240946B100166AEE /* Model */,
 				AB2EF82E2407FEEC00166AEE /* Main.storyboard */,
 				AB2EF8312407FF0100166AEE /* Assets.xcassets */,
 				AB2EF8332407FF0100166AEE /* LaunchScreen.storyboard */,
@@ -123,6 +126,14 @@
 				AB2EF84C2407FF0100166AEE /* Info.plist */,
 			);
 			path = dogCEOIOSUITests;
+			sourceTree = "<group>";
+		};
+		AB2EF858240946B100166AEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB2EF85B240D2B3300166AEE /* Dog.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB2EF82D2407FEEC00166AEE /* ViewController.swift in Sources */,
+				AB2EF82D2407FEEC00166AEE /* TableViewController.swift in Sources */,
+				AB2EF85C240D2B3300166AEE /* Dog.swift in Sources */,
 				AB2EF82B2407FEEC00166AEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
