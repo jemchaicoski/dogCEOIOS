@@ -14,6 +14,8 @@
 		AB2EF8352407FF0100166AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2EF8332407FF0100166AEE /* LaunchScreen.storyboard */; };
 		AB2EF8402407FF0100166AEE /* dogCEOIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF83F2407FF0100166AEE /* dogCEOIOSTests.swift */; };
 		AB2EF84B2407FF0100166AEE /* dogCEOIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF84A2407FF0100166AEE /* dogCEOIOSUITests.swift */; };
+		AB68CAA5240D28330056EC34 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68CAA4240D28330056EC34 /* TableViewController.swift */; };
+		AB68CAA7240D4B220056EC34 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68CAA6240D4B220056EC34 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AB2EF8462407FF0100166AEE /* dogCEOIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dogCEOIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2EF84A2407FF0100166AEE /* dogCEOIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogCEOIOSUITests.swift; sourceTree = "<group>"; };
 		AB2EF84C2407FF0100166AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB68CAA4240D28330056EC34 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AB68CAA6240D4B220056EC34 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				AB2EF82A2407FEEC00166AEE /* AppDelegate.swift */,
 				AB2EF82C2407FEEC00166AEE /* ViewController.swift */,
 				AB2EF82E2407FEEC00166AEE /* Main.storyboard */,
+				AB68CAA6240D4B220056EC34 /* TableViewCell.swift */,
+				AB68CAA4240D28330056EC34 /* TableViewController.swift */,
 				AB2EF8312407FF0100166AEE /* Assets.xcassets */,
 				AB2EF8332407FF0100166AEE /* LaunchScreen.storyboard */,
 				AB2EF8362407FF0100166AEE /* Info.plist */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB2EF82D2407FEEC00166AEE /* ViewController.swift in Sources */,
+				AB68CAA7240D4B220056EC34 /* TableViewCell.swift in Sources */,
+				AB68CAA5240D28330056EC34 /* TableViewController.swift in Sources */,
 				AB2EF82B2407FEEC00166AEE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
