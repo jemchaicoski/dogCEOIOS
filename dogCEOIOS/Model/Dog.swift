@@ -31,7 +31,6 @@ class Dog: NSObject, NSCoding {
         static let favorito = "favorito"
         
     }
-    
     convenience required init?(coder aDecoder: NSCoder) {
         
         // Because photo is an optional property of Meal, just use conditional cast.
