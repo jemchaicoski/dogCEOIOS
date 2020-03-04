@@ -7,12 +7,13 @@
 //
 
 import Foundation
-
+import UIKit
 class Dog: NSObject, NSCoding {
     //Mark: Properties
     var raca: String
     var pai: String? //caso exista um pai, se trata-rá de uma sub raça
     var favorito: Bool = false
+    var imagem: UIImage?
     
     //MARK: Initialization
     init(raca: String!, pai: String?, favorito: Bool!) {
