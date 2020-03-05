@@ -10,16 +10,15 @@
 		132E3429530BA1668EBD5FDD /* Pods_dogCEOIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BAC20701AA3717E8A0E092 /* Pods_dogCEOIOSTests.framework */; };
 		917CF2B1705505DBDF69E6A1 /* Pods_dogCEOIOS_dogCEOIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBE5CBFA30932C66ED8E8DE /* Pods_dogCEOIOS_dogCEOIOSUITests.framework */; };
 		AB2EF82B2407FEEC00166AEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF82A2407FEEC00166AEE /* AppDelegate.swift */; };
-		AB2EF82D2407FEEC00166AEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF82C2407FEEC00166AEE /* ViewController.swift */; };
 		AB2EF8302407FEEC00166AEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2EF82E2407FEEC00166AEE /* Main.storyboard */; };
 		AB2EF8322407FF0100166AEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2EF8312407FF0100166AEE /* Assets.xcassets */; };
 		AB2EF8352407FF0100166AEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2EF8332407FF0100166AEE /* LaunchScreen.storyboard */; };
 		AB2EF8402407FF0100166AEE /* dogCEOIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF83F2407FF0100166AEE /* dogCEOIOSTests.swift */; };
 		AB2EF84B2407FF0100166AEE /* dogCEOIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF84A2407FF0100166AEE /* dogCEOIOSUITests.swift */; };
-
-		D22403C2483477D1810052EF /* Pods_dogCEOIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0091C640D28C3EF3370E7B /* Pods_dogCEOIOS.framework */; };
+		AB2EF85C240D2B3300166AEE /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2EF85B240D2B3300166AEE /* Dog.swift */; };
 		AB68CAA5240D28330056EC34 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68CAA4240D28330056EC34 /* TableViewController.swift */; };
 		AB68CAA7240D4B220056EC34 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68CAA6240D4B220056EC34 /* TableViewCell.swift */; };
+		D22403C2483477D1810052EF /* Pods_dogCEOIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0091C640D28C3EF3370E7B /* Pods_dogCEOIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		9E0091C640D28C3EF3370E7B /* Pods_dogCEOIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dogCEOIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2EF8272407FEEC00166AEE /* dogCEOIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dogCEOIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2EF82A2407FEEC00166AEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB2EF82C2407FEEC00166AEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB2EF82F2407FEEC00166AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB2EF8312407FF0100166AEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB2EF8342407FF0100166AEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,11 +57,12 @@
 		AB2EF8462407FF0100166AEE /* dogCEOIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dogCEOIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2EF84A2407FF0100166AEE /* dogCEOIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dogCEOIOSUITests.swift; sourceTree = "<group>"; };
 		AB2EF84C2407FF0100166AEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2EF85B240D2B3300166AEE /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		AB68CAA4240D28330056EC34 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		AB68CAA6240D4B220056EC34 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		AE408598CE82D697C535D975 /* Pods-dogCEOIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogCEOIOSTests.release.xcconfig"; path = "Target Support Files/Pods-dogCEOIOSTests/Pods-dogCEOIOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		BFBE5CBFA30932C66ED8E8DE /* Pods_dogCEOIOS_dogCEOIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dogCEOIOS_dogCEOIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CACAA87F60F2BDAE5FBAC905 /* Pods-dogCEOIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dogCEOIOS.release.xcconfig"; path = "Target Support Files/Pods-dogCEOIOS/Pods-dogCEOIOS.release.xcconfig"; sourceTree = "<group>"; };
-		AB68CAA4240D28330056EC34 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		AB68CAA6240D4B220056EC34 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				AB2EF82A2407FEEC00166AEE /* AppDelegate.swift */,
-				AB2EF82C2407FEEC00166AEE /* ViewController.swift */,
+				AB2EF858240946B100166AEE /* Model */,
 				AB2EF82E2407FEEC00166AEE /* Main.storyboard */,
 				AB68CAA6240D4B220056EC34 /* TableViewCell.swift */,
 				AB68CAA4240D28330056EC34 /* TableViewController.swift */,
@@ -170,6 +169,14 @@
 				AB2EF84C2407FF0100166AEE /* Info.plist */,
 			);
 			path = dogCEOIOSUITests;
+			sourceTree = "<group>";
+		};
+		AB2EF858240946B100166AEE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB2EF85B240D2B3300166AEE /* Dog.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,7 +418,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB2EF82D2407FEEC00166AEE /* ViewController.swift in Sources */,
+				AB2EF85C240D2B3300166AEE /* Dog.swift in Sources */,
 				AB68CAA7240D4B220056EC34 /* TableViewCell.swift in Sources */,
 				AB68CAA5240D28330056EC34 /* TableViewController.swift in Sources */,
 				AB2EF82B2407FEEC00166AEE /* AppDelegate.swift in Sources */,
