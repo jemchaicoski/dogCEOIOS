@@ -1,14 +1,15 @@
+
 //
 //  ViewController.swift
 //  dogCEOIOS
 //
 //  Created by Jonathan on 27/02/20.
-//  Copyright © 2020 HBSIS. All rights reserved.
-//
+
 
 import UIKit
 
 class TableViewController: UITableViewController {
+
     var dogs = [Dog]()
 
     override func viewDidLoad() {
@@ -31,7 +32,7 @@ class TableViewController: UITableViewController {
         // Fetches the appropriate meal for the data source layout.
         let dog = dogs[indexPath.row]
         
-        cell.dogName.text = dog.raca
+       // cell.dogName.text = dog.raca
         //cell.dogImage.image
         buttonFavoriteAux(dog: dog, cell: cell)
         
@@ -54,8 +55,8 @@ class TableViewController: UITableViewController {
     
     func buttonFavoriteAux(dog: Dog, cell: TableViewCell){
         let star : UIImage = dog.favorito ? UIImage(named:"filledStar")! : UIImage(named : "emptyStar")!
-        cell.dogFavorite.setImage(star, for: .selected)
-        cell.dogFavorite.setImage(star, for: .normal)
+        //cell.dogFavorite.setImage(star, for: .selected)
+        //cell.dogFavorite.setImage(star, for: .normal)
     }
     
     func loadSampleDog(){
@@ -65,4 +66,5 @@ class TableViewController: UITableViewController {
     
 
 }
+
 
