@@ -11,6 +11,7 @@ import Alamofire
 import os.log
 
 
+
 class ViewController: UIViewController {
 
     var racas :[String] = []
