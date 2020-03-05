@@ -1,90 +1,70 @@
-		//
-//  TableViewController.swift
+
+//
+//  ViewController.swift
 //  dogCEOIOS
 //
-//  Created by Jonathan on 02/03/20.
-//  Copyright © 2020 HBSIS. All rights reserved.
-//
+//  Created by Jonathan on 27/02/20.
+
 
 import UIKit
 
 class TableViewController: UITableViewController {
 
+    var dogs = [Dog]()
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        // Do any additional setup after loading the view, typically from a nib.
+        loadSampleDog()
+        updateDogs()
+        
     }
-
-    // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
-
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        
+        // Table view cells are reused and should be dequeued using a cell identifier.
+        let cellIdentifier = "dogTableViewCell"
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? TableViewCell  else {
+            fatalError("The dequeued cell is not an instance of BarTableViewCell.")
+        }
+        
+        // Fetches the appropriate meal for the data source layout.
+        let dog = dogs[indexPath.row]
+        
+       // cell.dogName.text = dog.raca
+        //cell.dogImage.image
+        buttonFavoriteAux(dog: dog, cell: cell)
+        
         return cell
     }
-    */
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return dogs.count
     }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
+    
+    @IBAction private func updateDogs(){
+        dogs.sort(by:{$0.raca < $1.raca})
+        tableView.reloadData()
     }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
+    
+    @IBAction func setButtonFavoriteState(dog: Dog, cell: TableViewCell){
+        dog.favorito = !dog.favorito
+        buttonFavoriteAux(dog: dog, cell: cell)
     }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
+    
+    func buttonFavoriteAux(dog: Dog, cell: TableViewCell){
+        let star : UIImage = dog.favorito ? UIImage(named:"filledStar")! : UIImage(named : "emptyStar")!
+        //cell.dogFavorite.setImage(star, for: .selected)
+        //cell.dogFavorite.setImage(star, for: .normal)
     }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    func loadSampleDog(){
+        let dog1 = Dog(raca: "aaaa",pai: nil, favorito: true)
+        dogs.insert(dog1, at: 0)
     }
-    */
+    
 
 }
+
+
