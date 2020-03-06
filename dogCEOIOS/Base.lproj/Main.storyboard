@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="101" id="Cye-5h-3OY" customClass="TableViewCell" customModule="dogCEOIOS" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="dogTableViewCell" rowHeight="101" id="Cye-5h-3OY" customClass="TableViewCell" customModule="dogCEOIOS" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="101"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Cye-5h-3OY" id="fD4-Nf-RzT">
@@ -29,11 +29,6 @@
                                             <rect key="frame" x="5" y="5" width="106" height="85"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYm-kD-jjs">
-                                            <rect key="frame" x="268" y="62" width="55" height="30"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <state key="normal" title="Favorito"/>
-                                        </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NomeDog" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZZ-yx-XIk">
                                             <rect key="frame" x="136" y="11" width="182" height="29"/>
 
@@ -42,11 +37,22 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YYm-kD-jjs">
+                                            <rect key="frame" x="302" y="22" width="57" height="50"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" title="Favorito" image="emptyStar"/>
+                                            <connections>
+                                                <action selector="subscribeButtonTapped:" destination="Cye-5h-3OY" eventType="touchUpInside" id="LZ5-Fp-97E"/>
+                                            </connections>
+                                        </button>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="buttonFavorite" destination="YYm-kD-jjs" id="DmC-67-f7u"/>
                                     <outlet property="fotoDogCell" destination="KU1-8e-QnK" id="EKb-R5-4rY"/>
+                                    <outlet property="imagemRaca" destination="KU1-8e-QnK" id="mDF-gt-PiX"/>
                                     <outlet property="nomeDogCell" destination="xZZ-yx-XIk" id="fbr-H2-iSM"/>
+                                    <outlet property="nomeRaca" destination="xZZ-yx-XIk" id="Oy3-tj-fNm"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -58,7 +64,10 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UUC-JK-Sno" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1553" y="353"/>
+            <point key="canvasLocation" x="1552.8" y="352.17391304347831"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="emptyStar" width="50" height="50"/>
+    </resources>
 </document>
