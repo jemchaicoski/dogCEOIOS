@@ -25,7 +25,7 @@ class TableViewController: UITableViewController {
         // Table view cells are reused and should be dequeued using a cell identifier.
         let cellIdentifier = "dogTableViewCell"
         
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? TableViewCell  else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? dogTableViewCell  else {
             fatalError("The dequeued cell is not an instance of BarTableViewCell.")
         }
         
@@ -54,7 +54,7 @@ class TableViewController: UITableViewController {
         buttonFavoriteAux(dog: dog, cell: cell)
     }
     
-    func buttonFavoriteAux(dog: Dog, cell: TableViewCell){
+    func buttonFavoriteAux(dog: Dog, cell: dogTableViewCell){
         let star : UIImage = dog.favorito ? UIImage(named:"filledStar")! : UIImage(named : "emptyStar")!
         cell.raca = dog
         //cell.dogFavorite.setImage(star, for: .selected)

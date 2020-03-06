@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewCell: UITableViewCell {
+class dogTableViewCell: UITableViewCell {
 
     @IBOutlet weak var buttonFavorite: UIButton!
     @IBOutlet weak var nomeRaca: UILabel!

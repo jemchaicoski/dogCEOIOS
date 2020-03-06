@@ -8,6 +8,8 @@ target 'dogCEOIOS' do
   # Pods for dogCEOIOS
  pod 'Alamofire', '4.7'
 
+ pod 'AlamofireImage', '~>3.3'
+ 
   target 'dogCEOIOSTests' do
     inherit! :search_paths
     # Pods for testing
