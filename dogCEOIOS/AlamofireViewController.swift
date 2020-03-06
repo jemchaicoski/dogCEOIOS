@@ -15,14 +15,14 @@ class AlamofireViewController: UIViewController, UITableViewDelegate,UITableView
     
     @IBOutlet weak var imagemview: UIImageView!
     
-    @IBOutlet weak var TableView: dogTableViewCell!
+    @IBOutlet weak var TableView: TableViewCell!
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return racas.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "dogListCell"
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? dogTableViewCell  else {
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? TableViewCell  else {
             fatalError("The dequeued cell is not an instance of MealTableViewCell.")
         }
         
