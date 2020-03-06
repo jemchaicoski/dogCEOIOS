@@ -21,7 +21,6 @@
 		AB506A0D2412827A00442410 /* DogImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB506A0B2412827A00442410 /* DogImage.swift */; };
 		AB68CAA5240D28330056EC34 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB68CAA4240D28330056EC34 /* TableViewController.swift */; };
 		AB7EF73524126B7200253FE3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7EF73424126B7200253FE3 /* ViewController.swift */; };
-		AB7EF73724126BA100253FE3 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AB7EF73624126BA100253FE3 /* Base.lproj */; };
 		AB7EF73924126BC200253FE3 /* BreedsListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB7EF73824126BC200253FE3 /* BreedsListResponse.swift */; };
 		D22403C2483477D1810052EF /* Pods_dogCEOIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0091C640D28C3EF3370E7B /* Pods_dogCEOIOS.framework */; };
 /* End PBXBuildFile section */
@@ -305,7 +304,6 @@
 			files = (
 				AB2EF8352407FF0100166AEE /* LaunchScreen.storyboard in Resources */,
 				AB2EF8322407FF0100166AEE /* Assets.xcassets in Resources */,
-				AB7EF73724126BA100253FE3 /* Base.lproj in Resources */,
 				AB2EF8302407FEEC00166AEE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
